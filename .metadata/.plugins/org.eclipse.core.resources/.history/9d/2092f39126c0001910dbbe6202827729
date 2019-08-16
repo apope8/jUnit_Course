@@ -1,0 +1,25 @@
+package com.apope.upskill.junit;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class GreetingImplTest {
+
+	@Test
+	void greetShouldReturnValidOutput() {
+		Greeting greeting = new GreetingImpl();
+		
+		String result = greeting.greet("Junit");
+		assertNotNull(result);
+		assertEquals("Hello Junit", result);
+	}
+	
+	@Test(expected = IllegalArgumentException.class)
+	public void greetShouldThrowException_For_NameIsNull() {
+		GreetingImpl grImpl = new GreetingImpl();
+		
+		grImpl.greet(null);
+	}
+
+}
