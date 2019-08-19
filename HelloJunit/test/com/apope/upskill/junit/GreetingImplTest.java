@@ -21,9 +21,9 @@ class GreetingImplTest {
 	@Test
 	void greetShouldReturnValidOutput() {
 		System.out.println("greetShouldReturnValidOutput");
-		String result = greeting.greet("Junit");
+		String result = greeting.greet("Hello Junit5");
 		assertNotNull(result);
-		assertEquals("Hello Junit", result);
+		assertEquals("Hello Junit5", result);
 	}
 	
 	@After

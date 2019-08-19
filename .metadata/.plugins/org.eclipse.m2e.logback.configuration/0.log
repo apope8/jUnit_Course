@@ -100,3 +100,38 @@
 2019-08-19 21:50:40,674 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\main\resources
 2019-08-19 21:50:40,676 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-08-19 21:50:40,676 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\test\resources
+2019-08-19 22:08:54,665 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-19 22:08:54,667 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\main\resources
+2019-08-19 22:08:54,678 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-19 22:08:54,678 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\test\resources
+2019-08-19 22:10:47,477 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-19 22:10:47,477 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\main\resources
+2019-08-19 22:10:47,479 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-19 22:10:47,479 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\test\resources
+2019-08-19 22:10:54,725 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-19 22:10:54,731 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\main\resources
+2019-08-19 22:10:54,737 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-19 22:10:54,737 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\test\resources
+2019-08-19 22:13:48,910 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-19 22:13:48,910 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\main\resources
+2019-08-19 22:13:48,912 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-19 22:13:48,912 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\test\resources
+2019-08-19 22:14:15,404 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-19 22:14:15,411 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\main\resources
+2019-08-19 22:14:15,417 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-19 22:14:15,418 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\test\resources
+2019-08-19 22:14:23,895 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-19 22:14:23,896 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\main\resources
+2019-08-19 22:14:23,897 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-19 22:14:23,897 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\test\resources
+2019-08-19 22:17:11,523 [Worker-28: Launching Executing clean in C__Users_apope_Documents_Workspaces_jUnit Course_Course Projects_HelloJunit5] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5
+2019-08-19 22:17:11,534 [Worker-28: Launching Executing clean in C__Users_apope_Documents_Workspaces_jUnit Course_Course Projects_HelloJunit5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-08-19 22:17:15,153 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-19 22:17:15,154 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\main\resources
+2019-08-19 22:17:15,184 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-19 22:17:15,193 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\test\resources
+2019-08-19 22:17:30,587 [Worker-26: Launching Executing install in C__Users_apope_Documents_Workspaces_jUnit Course_Course Projects_HelloJunit5] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5
+2019-08-19 22:17:30,587 [Worker-26: Launching Executing install in C__Users_apope_Documents_Workspaces_jUnit Course_Course Projects_HelloJunit5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-08-19 22:17:42,875 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-19 22:17:42,885 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\main\resources
+2019-08-19 22:17:42,894 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
