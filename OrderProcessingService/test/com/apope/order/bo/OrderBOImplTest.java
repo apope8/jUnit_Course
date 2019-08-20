@@ -10,6 +10,7 @@ import static org.mockito.Mockito.*;
 
 import java.sql.SQLException;
 
+import com.apope.order.bo.exception.BOException;
 import com.apope.order.dao.OrderDAO;
 import com.apope.order.dto.Order;
 
@@ -24,7 +25,7 @@ public class OrderBOImplTest {
 	}
 	
 	@Test
-	public void placeOrder_Should_Create_An_Order() throws SQLException {
+	public void placeOrder_Should_Create_An_Order() throws SQLException, BOException {
 		
 		OrderBOImpl bo = new OrderBOImpl();
 		
@@ -32,6 +33,12 @@ public class OrderBOImplTest {
 		
 		Order order = new Order();
 		when(dao.create(order)).thenReturn(new Integer(1));
+		
+		boolean result = bo.placeOrder(order);
+		
+		assertTrue(result);
+		
+		verify(dao).create(order);
 	}
 
 }
