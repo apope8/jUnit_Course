@@ -40,8 +40,7 @@ public class OrderBOImplTest {
 	}
 	
 	@Test
-	public void placeOrder_Should_Not_Create_An_Order() throws SQLException, BOException {
-		
+	public void placeOrder_Should_Not_Create_An_Order() throws SQLException, BOException {	
 		
 		Order order = new Order();
 		when(dao.create(order)).thenReturn(new Integer(0));
@@ -50,6 +49,17 @@ public class OrderBOImplTest {
 		
 		assertFalse(result);
 		verify(dao).create(order);
+	}
+	
+	@Test(expected = BOException.class)
+	public void placeOrder_Should_Not_Throw_BOException() throws SQLException, BOException {	
+		
+		Order order = new Order();
+		when(dao.create(order)).thenThrow(SQLException.class);
+		
+		boolean result = bo.placeOrder(order);
+		
+	
 	}
 
 }
