@@ -16,6 +16,7 @@ import com.apope.order.dto.Order;
 
 public class OrderBOImplTest {
 	
+	private static final int ORDERID = 123;
 	@Mock
 	OrderDAO dao;
 	private OrderBOImpl bo;
@@ -64,40 +65,49 @@ public class OrderBOImplTest {
 	@Test
 	public void cancelOrder_Should_Cancel_The_Order() throws SQLException, BOException {
 		Order order = new Order();
-		when(dao.read(123)).thenReturn(order);
+		when(dao.read(ORDERID)).thenReturn(order);
 		when(dao.update(order)).thenReturn(1);
-		boolean result = bo.cancelOrder(123);
+		boolean result = bo.cancelOrder(ORDERID);
 		
 		assertTrue(result);
-		verify(dao).read(123);
+		verify(dao).read(ORDERID);
 		verify(dao).update(order);
 	}
 	
 	@Test
 	public void cancelOrder_Should_Not_Cancel_The_Order() throws SQLException, BOException {
 		Order order = new Order();
-		when(dao.read(123)).thenReturn(order);
+		when(dao.read(ORDERID)).thenReturn(order);
 		when(dao.update(order)).thenReturn(0);
-		boolean result = bo.cancelOrder(123);
+		boolean result = bo.cancelOrder(ORDERID);
 		
 		assertFalse(result);
-		verify(dao).read(123);
+		verify(dao).read(ORDERID);
 		verify(dao).update(order);
 	}
 	
 	@Test(expected = BOException.class)
 	public void cancelOrder_Should_Throw_BOException_On_Read() throws SQLException, BOException {
-		when(dao.read(123)).thenThrow(SQLException.class);
-		bo.cancelOrder(123);
+		when(dao.read(ORDERID)).thenThrow(SQLException.class);
+		bo.cancelOrder(ORDERID);
 	}
 	
 	@Test(expected = BOException.class)
 	public void cancelOrder_Should_Throw_BOException_On_Update() throws SQLException, BOException {
 		Order order = new Order();
-		when(dao.read(123)).thenReturn(order);
+		when(dao.read(ORDERID)).thenReturn(order);
 		when(dao.update(order)).thenThrow(SQLException.class);
-		bo.cancelOrder(123);
+		bo.cancelOrder(ORDERID);
 		
 	}
 
+	
+	@Test
+	public void deleteOrder_Deletes_The_Order() throws SQLException, BOException {
+		when(dao.delete(ORDERID)).thenReturn(1);
+		bo.deleteOrder(ORDERID);
+		boolean result = bo.deleteOrder(ORDERID);
+		assertTrue(result);
+		verify(dao).delete(ORDERID);
+	}
 }

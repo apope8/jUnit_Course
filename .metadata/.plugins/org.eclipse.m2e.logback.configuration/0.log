@@ -136,3 +136,4 @@
 2019-08-19 22:17:42,885 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\main\resources
 2019-08-19 22:17:42,894 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-08-19 22:17:42,894 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\apope\Documents\Workspaces\jUnit Course\Course Projects\HelloJunit5\src\test\resources
+2019-08-26 21:58:13,657 [Worker-17: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
